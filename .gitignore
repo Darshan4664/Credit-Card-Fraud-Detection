@@ -1,0 +1,6 @@
+# .gitignore
+data/
+models/
+__pycache__/
+*.pkl
+*.ipynb_checkpoints/
