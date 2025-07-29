@@ -13,7 +13,7 @@ Features: >
   - Streamlit frontend for model selection, fraud prediction, and accuracy display
 
 
-Technologies_used:
+Technologies_used: >
   - Python 3.7+
   - pandas
   - numpy
@@ -26,29 +26,7 @@ Technologies_used:
   - joblib
 
 
-# Folder Structure
-
-Here's how the project is organized:
-
-Credit_card_fraud_detection/
-├── app/
-│   ├── app.py              # Streamlit web app code
-│   └── fraud_checker.py    # Fraud detection helpers
-├── utils/
-│   └── model_utils.py      # Loads models, makes predictions
-├── data/
-│   └── creditcard.csv      # The dataset (not included in repo)
-├── models/
-│   └── fraud_detector.pkl  # Trained model file 
-├── notebooks/
-│   └── model_training.ipynb # Jupyter notebook for training
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
-
-Note: The `data/` folder and `models/` folder are listed in `.gitignore` so they aren’t pushed to GitHub.
-
-
-# Dataset Info
+Dataset Info: >
 
 This project uses the Kaggle Credit Card Fraud dataset:  
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
@@ -63,7 +41,7 @@ You need to download this dataset from Kaggle and place the CSV file in the `dat
 /data/creditcard.csv
 
 
-# Usage_instructions: >
+Usage_instructions: >
   1. Install required packages with: pip install -r requirements.txt
   2. Train the model by running: notebooks/model_training.ipynb
   3. Launch the app using: streamlit run app/app.py
@@ -75,13 +53,13 @@ You need to download this dataset from Kaggle and place the CSV file in the `dat
                                         - Compare prediction to actual
 
 
-# Notes: >
+Notes: >
   - The dataset and model files are excluded via .gitignore.
   - You can retrain the model at any time using the notebook.
   - Accuracy is shown in the sidebar of the Streamlit app.
 
 
-# Author
+Author: >
 
 Darshan Sonara  
 Credit Card Fraud Detection with Python + Machine Learning + Streamlit
